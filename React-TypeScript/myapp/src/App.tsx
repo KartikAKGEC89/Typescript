@@ -3,7 +3,8 @@ import React from 'react';
 // import Status from './components/Status';
 // import Heading from './components/Heading';
 // import Button from './components/Button';
-import Container from './components/Container';
+// import Container from './components/Container';
+import Usestate from './components/state/Usestate';
 
 function App() {
   
@@ -15,7 +16,8 @@ function App() {
       {/* <Button handleClick={(event, id) => {
         console.log("Handle Click function", event, id)
       }} /> */}
-      <Container styles={{border: "solid 5px black"}} />
+      {/* <Container styles={{border: "solid 5px black"}} /> */}
+      <Usestate />
     </div>
   );
 }
