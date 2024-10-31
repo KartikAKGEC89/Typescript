@@ -15,7 +15,7 @@ function App() {
       {/* <Button handleClick={(event, id) => {
         console.log("Handle Click function", event, id)
       }} /> */}
-      <Container />
+      <Container styles={{border: "solid 5px black"}} />
     </div>
   );
 }

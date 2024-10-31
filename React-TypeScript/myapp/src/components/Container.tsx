@@ -1,9 +1,12 @@
 import React from 'react'
 
-const Container = () => {
+type Style = {
+    styles: React.CSSProperties
+}
+const Container = (props: Style) => {
   return (
     <div>
-      <h1 style={{border:"solid black 1px", padding:"1rem"}}> Hello </h1>
+          <h1 style={props.styles}> Hello </h1>
     </div>
   )
 }
