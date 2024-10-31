@@ -4,7 +4,8 @@ import React from 'react';
 // import Heading from './components/Heading';
 // import Button from './components/Button';
 // import Container from './components/Container';
-import Usestate from './components/state/Usestate';
+// import Usestate from './components/state/Usestate';
+import User from './components/state/User';
 
 function App() {
   
@@ -17,7 +18,8 @@ function App() {
         console.log("Handle Click function", event, id)
       }} /> */}
       {/* <Container styles={{border: "solid 5px black"}} /> */}
-      <Usestate />
+      {/* <Usestate /> */}
+      <User />
     </div>
   );
 }
